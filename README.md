@@ -1,14 +1,5 @@
 # 🛰️ POI GeoValidation 
 This repository contains a **modular AI-based pipeline** that validates **Points of Interest (POIs)** using satellite imagery and geospatial metadata. The system combines rule-based geometry validation with satellite-based deep learning to identify possible misplacements or mismatches in POI data.
----
-
-## 📁 Project Structure
-├── findPOI.py # Extracts POIs from a GeoJSON trail
-├── geo_utils.py # Provides precise coordinate extraction for POIs
-├── SATELITAL_IMAGES_FILE.py # Core AI pipeline for satellite-based validation
-├── POI-GeoValidation.ipynb # Main notebook that runs and interprets everything
-├── README.md # This file
-
 
 ---
 
