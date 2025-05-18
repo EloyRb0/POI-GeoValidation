@@ -45,8 +45,8 @@ def get_satellite_tile(lat, lon, zoom, tile_format, api_key, output_path):
         print(f'Failed to retrieve tile ({lat}, {lon}) - Status code: {response.status_code}')
 
 # CONFIGURACIÓN
-GEOJSON_FOLDER = './STREETS_NAV/'
-CSV_FOLDER = './POIs/'          
+GEOJSON_FOLDER = './STREETS_NAV/' #HERE YOU NEED THE GEOJSON DATASETS
+CSV_FOLDER = './POIs/'           #HERE YOU NEED THE GEOJSON DATASETS
 SATELLITE_FOLDER = 'satellite_tiles'
 api_key = '' #API KEY GOES HERE
 zoom = 18
